@@ -21,5 +21,18 @@
   </ItemGroup>
   <ItemGroup>
     <Font Include="consola.ttf" />
+    <Font Include="..\Release\consola.ttf" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Release\libfreetype-6.dll" />
+    <None Include="..\Release\libpng16-16.dll" />
+    <None Include="..\Release\OnX.exe" />
+    <None Include="..\Release\OnX.iobj" />
+    <None Include="..\Release\OnX.ipdb" />
+    <None Include="..\Release\OnX.pdb" />
+    <None Include="..\Release\SDL2.dll" />
+    <None Include="..\Release\SDL2_image.dll" />
+    <None Include="..\Release\SDL2_ttf.dll" />
+    <None Include="..\Release\zlib1.dll" />
   </ItemGroup>
 </Project>
